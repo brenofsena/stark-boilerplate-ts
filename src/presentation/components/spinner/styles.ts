@@ -1,4 +1,4 @@
-import styled, { keyframes } from 'styled-components';
+import styled, { keyframes } from 'styled-components'
 
 const Spinner1 = keyframes`
   0% {
@@ -8,7 +8,7 @@ const Spinner1 = keyframes`
   100% {
     transform: scale(1);
   }
-`;
+`
 
 const Spinner2 = keyframes`
   0% {
@@ -18,7 +18,7 @@ const Spinner2 = keyframes`
  100% {
     transform: translate(24px, 0);
   }
-`;
+`
 
 const Spinner3 = keyframes`
   0% {
@@ -28,7 +28,7 @@ const Spinner3 = keyframes`
   100% {
     transform: scale(0);
   }
-`;
+`
 
 export const Spinner = styled.div`
   display: inline-block;
@@ -76,4 +76,4 @@ export const Spinner = styled.div`
       animation-iteration-count: infinite;
     }
   }
-`;
+`

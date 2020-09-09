@@ -1,4 +1,4 @@
-import { createGlobalStyle, DefaultTheme } from 'styled-components';
+import { createGlobalStyle, DefaultTheme } from 'styled-components'
 
 const theme: DefaultTheme = {
   colors: {
@@ -18,7 +18,7 @@ const theme: DefaultTheme = {
     bold: 700,
   },
   boxShadow: 'rgba(0, 0, 0, 0.08) 0px 2px 4px 0px',
-};
+}
 
 const GlobalStyle = createGlobalStyle`
   * {
@@ -34,6 +34,6 @@ const GlobalStyle = createGlobalStyle`
   body{
     font-family: ${theme.font.fontFamily}
   }
-`;
+`
 
-export { GlobalStyle, theme };
+export { GlobalStyle, theme }

@@ -1,1 +1,1 @@
-export * from './renderWithTheme';
+export * from './renderWithTheme'

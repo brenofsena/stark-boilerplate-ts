@@ -1,8 +1,8 @@
-import React, { Suspense, lazy } from 'react';
-import { BrowserRouter, Switch, Route } from 'react-router-dom';
-import { Spinner } from '@/presentation/components';
+import React, { Suspense, lazy } from 'react'
+import { BrowserRouter, Switch, Route } from 'react-router-dom'
+import { Spinner } from '@/presentation/components'
 
-const Main = lazy(() => import('@/presentation/pages/main/main'));
+const Main = lazy(() => import('@/presentation/pages/main/main'))
 
 const Router: React.FC = () => {
   return (
@@ -13,7 +13,7 @@ const Router: React.FC = () => {
         </Switch>
       </Suspense>
     </BrowserRouter>
-  );
-};
+  )
+}
 
-export default Router;
+export default Router
