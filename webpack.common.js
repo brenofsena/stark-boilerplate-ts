@@ -1,8 +1,8 @@
-const path = require('path');
-const { CleanWebpackPlugin } = require('clean-webpack-plugin');
-const HtmlWebpackPlugin = require('html-webpack-plugin');
+const path = require('path')
+const { CleanWebpackPlugin } = require('clean-webpack-plugin')
+const HtmlWebpackPlugin = require('html-webpack-plugin')
 
-require('dotenv').config();
+require('dotenv').config()
 
 module.exports = {
   watchOptions: {
@@ -60,4 +60,4 @@ module.exports = {
       inject: true,
     }),
   ],
-};
+}

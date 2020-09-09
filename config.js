@@ -7,4 +7,4 @@ module.exports = {
     theme_color: '#f9f9f9',
     icon: 'static/stark-ts.png',
   },
-};
+}

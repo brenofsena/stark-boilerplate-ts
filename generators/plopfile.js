@@ -25,7 +25,7 @@
         templateFile: 'templates/component/test.spec.tsx.hbs',
       },
     ],
-  });
+  })
 
   plop.setGenerator('page', {
     description: 'Create a page',
@@ -53,7 +53,7 @@
         templateFile: 'templates/component/test.spec.tsx.hbs',
       },
     ],
-  });
+  })
 
   plop.setGenerator('hook', {
     description: 'Create a hook',
@@ -76,7 +76,7 @@
         templateFile: 'templates/hook/test.spec.ts.hbs',
       },
     ],
-  });
+  })
 
   plop.setGenerator('context', {
     description: 'Create a context',
@@ -94,5 +94,5 @@
         templateFile: 'templates/context/context.ts.hbs',
       },
     ],
-  });
-};
+  })
+}
