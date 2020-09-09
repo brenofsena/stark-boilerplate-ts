@@ -1,12 +1,11 @@
-const path = require('path');
-const { merge } = require('webpack-merge');
-const common = require('./webpack.common');
-const TerserPlugin = require('terser-webpack-plugin');
-const ImageminPlugin = require('imagemin-webpack-plugin').default;
-const WebpackPwaManifest = require('webpack-pwa-manifest');
-const FaviconsWebpackPlugin = require('favicons-webpack-plugin');
-const OfflinePlugin = require('offline-plugin');
-const config = require('./config.js');
+const path = require('path')
+const { merge } = require('webpack-merge')
+const common = require('./webpack.common')
+const ImageminPlugin = require('imagemin-webpack-plugin').default
+const WebpackPwaManifest = require('webpack-pwa-manifest')
+const FaviconsWebpackPlugin = require('favicons-webpack-plugin')
+const OfflinePlugin = require('offline-plugin')
+const config = require('./config.js')
 
 module.exports = merge(common, {
   mode: 'production',
@@ -60,17 +59,8 @@ module.exports = merge(common, {
     }),
   ],
   optimization: {
-    minimize: true,
-    minimizer: [
-      new TerserPlugin({
-        extractComments: false,
-        cache: true,
-        parallel: true,
-        sourceMap: true,
-      }),
-    ],
     splitChunks: {
       chunks: 'all',
     },
   },
-});
+})
