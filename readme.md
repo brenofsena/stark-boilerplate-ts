@@ -2,6 +2,10 @@
 <img src="./static/stark-ts.png" width="100" alt="Stark Boilerplate" title="Stark Boilerplate" />
 </p>
 
+<p align="center" style="margin: 40px 0;">
+<a href="https://snyk.io/test/github/brenofsena/stark-boilerplate-ts?targetFile=package.json"><img src="https://snyk.io/test/github/brenofsena/stark-boilerplate-ts/badge.svg?targetFile=package.json" alt="Known Vulnerabilities" data-canonical-src="https://snyk.io/test/github/brenofsena/stark-boilerplate-ts?targetFile=package.json" style="max-width:100%;"></a>
+</p>
+
 > ## Stark Boilerplate
 
 This boilerplate is now ready to integrate with Travis, Heroku and Coveralls for CI/CD
