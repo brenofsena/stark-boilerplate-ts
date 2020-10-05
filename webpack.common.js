@@ -27,7 +27,7 @@ module.exports = {
         exclude: /node_modules/,
       },
       {
-        test: /\.(png|jpg|gif|eot|ttf|woff|woff2)$/,
+        test: /\.(svg|png|jpg|gif|eot|ttf|woff|woff2)$/,
         use: [
           {
             loader: 'file-loader',
@@ -51,6 +51,7 @@ module.exports = {
     extensions: ['.ts', '.tsx', '.js', '.css'],
     alias: {
       '@': path.join(__dirname, 'src'),
+      '@assets': path.join(__dirname, 'static'),
     },
   },
   plugins: [

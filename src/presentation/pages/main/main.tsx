@@ -1,6 +1,6 @@
 import React from 'react'
 import * as S from './styles'
-import StarkLogo from '../../../../static/stark-ts.png'
+import StarkLogo from '@assets/stark-ts.png'
 
 const Main: React.FC = () => (
   <S.Wrapper>
